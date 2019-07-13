@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <h1>Netlify Form</h1>
-      <form netlify method="POST">
+      <form name="formtest" netlify method="POST">
         <input type="text"></input>
         <input type="submit"></input>
       </form>
